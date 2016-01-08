@@ -593,6 +593,11 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NI WPI Serial USB.lvlib" Type="Library" URL="../navX/NI WPI/NI WPI Serial USB.lvlib"/>
+			<Item Name="Test Controller.vi" Type="VI" URL="../Test/Implementation/Test Controller.vi"/>
+			<Item Name="Test Setpoints.ctl" Type="VI" URL="../Test/Implementation/Test Setpoints.ctl"/>
+			<Item Name="Test Operations.ctl" Type="VI" URL="../Test/Implementation/Test Operations.ctl"/>
+			<Item Name="Test Controller Initialization.vi" Type="VI" URL="../Test/Implementation/Infrastructure/Test Controller Initialization.vi"/>
+			<Item Name="Test Check for New Command.vi" Type="VI" URL="../Test/Implementation/Infrastructure/Test Check for New Command.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
